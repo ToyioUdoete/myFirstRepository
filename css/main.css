@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../images/leave6.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    height: auto !important; 
+    background-attachment: fixed;
+
+}
+.navbar-expand-lg{
+    margin-left: -12px;
+    margin-right: -12px;
+    opacity:0.85;
+    background-color: black !important;
+    /* justify-content: space-between !important;
+    justify-content: space-around !important; */
+    height: 15vh;
+}
+.info-top{
+    display: flex;
+    margin-top:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 47px;
+    
+}
+.info-top>p{
+    margin: 10px;
+    color: rgb(154, 205, 50);
+}
+.navbar-brand{
+    color: rgb(154, 205, 50) !important;
+    margin-left:73px;
+}
+.btn-outline-success{
+    border: 2px solid yellowgreen;
+    width: 200px;
+    color:white;
+    padding: 12px;
+    border-radius: 90px;
+}
+.btn-outline-success:hover{
+    background-color:darkgreen;
+    color: white;
+    border: none;
+}
+.herobutton{
+    margin-left: 62px !important;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.order{
+    border: 2px solid yellowgreen;
+    width: 200px;
+    color:white;
+    padding: 12px;
+    background-color: transparent;
+    border-radius: 90px;
+}
+.click-order{
+    margin-left:10px;
+}
+.order:hover{
+    background-color: darkgreen;
+    border: none;
+    color: white;
+}
+/* .nav-btn{
+    padding-right: 10px !important;
+} */
+.navbar-collapse{
+    margin-left: 140px;
+} 
+.navbar-toggler{
+    color: white !important;
+}
+.nav-item{
+    padding-right: 20px;
+    font-size: 17px;
+}
+.sticky-top .nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: yellowgreen !important;
+}
+.hero{
+    height:45vh;
+}
+.hero-content{
+    color:white;
+    margin-top:80px;
+    margin-left:62px;
+}
+.hero-content h1{
+    font-size:60px;
+}
+.about-section{
+    height: 155vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/restau-expensive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.about-div-content{
+    color: white;
+}
+.about-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+.about-div .about-div-content h5{
+    color: yellowgreen !important ;
+}
+.about-image{
+    width:450px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/norm\ restau.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border: 3px solid whitesmoke;
+    height: 350px;
+    transition: .9s;
+}
+.about-image:hover{
+    width: 460px;
+    height: 360px;
+}
+.diff-about{
+    flex-direction: row-reverse;
+}
+.menu{
+    background-color:rgb(26, 27, 25);
+    height:70vh;
+    margin-left: -12px;
+    height: 100vh;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    margin-right: -12px;
+}
+.menu p{
+    color: white;
+    font-size: 17px;
+}
+.menu h3{
+    font-size: 35px;
+}
+.menu-heading{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.menu >div{
+    color: white !important;
+}
+.menu-list-one,.menu-list-two,.menu-list-three{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+}
+.menu-content{
+    margin-left: 20px;
+}
+.menu-img{
+    vertical-align: middle;
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    border: 5px solid white;
+    outline:5px solid rgb(15, 15, 15) ;
+}
+.special-section{
+    background-color: black;
+    margin-left: -12px;
+    margin-right: -12px;
+    opacity: 0.7;
+    height: 100vh;
+}
+.specials-heading{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.special-section p{
+    color: white;
+    font-size: 17px;
+}
+.special-section h3{
+    font-size: 35px;
+}
+.event-heading{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    /* padding-bottom: 30px; */
+}
+.event p{
+    color: white;
+    font-size: 17px;
+}
+.event h3{
+    font-size: 35px;
+}
+.event{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/restau-expensive.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.event-div-content{
+    color: white;
+}
+.event-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+ padding-top: 40px; 
+} 
+.event-div .event-div-content h5{
+    color: yellowgreen !important ;
+}
+.event-image{
+    width:450px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/norm\ restau.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border: 3px solid whitesmoke;
+    height: 350px;
+    transition: .9s;
+}
+.event-image:hover{
+    width: 460px;
+    height: 360px;
+}
+.diff-event{
+    flex-direction: row-reverse;
+}
+.book-a-table{
+    background-color: rgb(26, 27, 25);
+    margin-left: -12px;
+    margin-right: -12px;
+    opacity: 0.9;
+    height: 110vh;
+}
+.book-a-table-content{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.book-a-table-content p{
+    color: white;
+    font-size: 17px;
+}
+.book-a-table-content h3{
+    font-size: 35px;
+}
+.form-input input{
+    background: transparent;
+    width: 354px;
+    padding: 10px;
+    border:1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    /* border-radius: 15px; */
+    color: white !important;
+    margin: 10px;
+}
+.form-input input::placeholder{
+    color:  rgb(146, 146, 146) !important;
+}
+#message{
+    background: transparent;
+    padding: 10px;
+    border:1px solid white;
+    border-radius: 7px;
+    color: rgb(146, 146, 146) !important;
+    margin: 10px;
+    outline: none;
+}
+form{
+    margin-left: 60px;
+}
+.testimonials{
+    background-color: rgb(26, 27, 25);
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 95vh;
+}
+.testimonial-content{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.testimonial-content p{
+    color: white;
+    font-size: 17px;
+}
+.testimonial h3{
+    font-size: 35px;
+}
+.testimonials .d-flex{
+   margin-left: 45px;
+    /* padding-top: 50px; */
+}
+.testimonials .d-flex .card{
+    margin: 33px !important;
+    background-color:  rgb(52, 53, 51);
+}
+.chefs{
+    background-color: rgb(26, 27, 25);
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 95vh;
+}
+.chef-content{
+    line-height: 0;
+    margin-left:72px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.chef-content p{
+    color: white;
+    font-size: 17px;
+}
+.chef h3{
+    font-size: 35px;
+}
+.chefs .d-flex{
+   margin-left: 45px;
+    /* padding-top: 50px; */
+}
+.chefs .d-flex .card{
+    margin: 33px !important;
+    background-image: url(../images/ET8B9544.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: none !important;
+    background-position: center;
+    width: 100%;
+}

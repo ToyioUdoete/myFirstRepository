@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: green;
+    height:16vh;
+}
+ul{
+    display: flex;
+    padding-left: 35%;
+    padding-top:2%;
+    padding-bottom: 3%;
+}
+li{
+    list-style: none;
+    color: white;
+    padding-left: 2%;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+li a{
+    text-decoration: none;
+}
